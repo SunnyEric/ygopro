@@ -226,6 +226,7 @@ public:
 	irr::gui::IGUIButton* btnReplayMode;
 	irr::gui::IGUIButton* btnTestMode;
 	irr::gui::IGUIButton* btnDeckEdit;
+	irr::gui::IGUIButton* btnAiMode;
 	irr::gui::IGUIButton* btnModeExit;
 	//lan
 	irr::gui::IGUIWindow* wLanWindow;
@@ -461,6 +462,7 @@ extern Game* mainGame;
 #define BUTTON_TEST_MODE			103
 #define BUTTON_DECK_EDIT			104
 #define BUTTON_MODE_EXIT			105
+#define BUTTON_AI_MODE				106
 #define LISTBOX_LAN_HOST			110
 #define BUTTON_JOIN_HOST			111
 #define BUTTON_JOIN_CANCEL			112
